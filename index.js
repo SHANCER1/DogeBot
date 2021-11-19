@@ -1710,7 +1710,7 @@ case 'h':
 reply('he/she is gone bro.. may he/she go to hell too 😏')
 break
 case 'okeyx':
-reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐 Join our group🤗 https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
+reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐 Join our group🤗 https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
 break
 
 case 'isbaileys': 
@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
+  reply('https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
 break
    
 case 'owner':
@@ -2380,7 +2380,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi"
+          "url": "https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe"
         },
         "index": 0
       }
