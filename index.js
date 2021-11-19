@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
+  reply('╭─➤ *ᴍ ꜱʜᴀɴᴢ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/SHANCER/SHANZ-BOT\n│❖   ᴡᴀ ɢʀᴏᴜᴘ:\n│❖   https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n              ᴍ ꜱʜᴀɴᴢ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ꜱʜᴀɴᴢ*\n╰─────────────────❋ཻུ۪۪⸙')
 break
    
 case 'owner':
