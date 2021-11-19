@@ -123,9 +123,9 @@ offline = false;
 antidel = false;
 welcom = false;
 antical = false
-readGc = true; 
+readGc = false; 
 readPc = false;
-autovn = true;
+autovn = false;
 multi = true
 harga = 0
 matauang = 'USD'
@@ -133,8 +133,8 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "918591220868"; 
-owner = "918591220868"; 
+targetpc = "94725292890"; 
+owner = "94725292890"; 
 fakeyoi = "whoiam"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -142,9 +142,9 @@ hardi = 'hardianto',
 valkey = "rivalgans", 
 zeksapi = "vallganz5",
 dapapi = "anakasu",
-ApiZeks = "https://api.zeks.xyz",
+ApiZeks = "BfYLA4wOt7Ag5reAVWo6T6m3FeG",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@94725292890"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1366,7 +1366,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'xeon':
+        case 'shanz':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1710,7 +1710,7 @@ case 'h':
 reply('he/she is gone bro.. may he/she go to hell too 😏')
 break
 case 'okeyx':
-reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐')
+reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐 Join our group🤗 https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
 break
 
 case 'isbaileys': 
@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
 break
    
 case 'owner':
@@ -1741,7 +1741,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
                haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
+               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'GROUP'},type:1}]
                buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
                xeon.relayWAMessage(prep)
@@ -3540,7 +3540,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('https://github.com/DGXeon')
+  reply('Join group first https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4007,7 +4007,7 @@ case "intake3": // by xeon
           sendMediaURL(from, ten, `*Link video_normal* : ${G.Normal_video}`);
         });
         break;
-      case "instagram":
+      case "ig":
         if (!isUrl(args[0]) && !args[0].includes("instagram.com"))
           return reply(mess.Iv);
         if (!q) return fakegroup("The link?");
@@ -5035,7 +5035,7 @@ buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}
           fromMe: true,
         });
         break;
-      case "tomp3":
+      case "mp3":
         if (!isQuotedVideo) return fakegroup("Reply the video!");
         fakegroup(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
@@ -5487,7 +5487,7 @@ Source : ${anu.result.source}
 				xeon.sendMessage(from, buffer1, video, {mimetype: 'video/mp4', filename: `${anu.result.video}.mp4`, quoted:freply, caption: 'Here bro'})
 					break  
 					
-      case "play":
+      case "song":
         if (args.length === 0)
           return reply(
             `Send orders *${prefix}play* _The title of the song to be searched_`
@@ -5634,7 +5634,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "toimg":
+      case "photo":
         if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !");
         reply(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
@@ -5649,7 +5649,7 @@ Source : ${anu.result.source}
           fs.unlinkSync(ran);
         });
         break;
-      case "ytsearch":
+      case "yt":
         if (args.length < 1) return reply("Please enter a query!");
         var srch = args.join("");
         try {
@@ -5789,7 +5789,7 @@ Source : ${anu.result.source}
         }
         break;
       case "image":
-      case "gimage":
+      case "img":
       case "googleimage":
         if (args.length < 1) return reply("What do you want to search?");
         reply(mess.wait);
@@ -5993,7 +5993,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "tomp4":
+      case "mp4":
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
           args.length == 0
