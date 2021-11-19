@@ -135,14 +135,14 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "94725292890"; 
 owner = "94725292890"; 
-fakeyoi = "🅼『SHANZ』亗"; 
+fakeyoi = "whoiam"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
 valkey = "rivalgans", 
 zeksapi = "vallganz5",
 dapapi = "anakasu",
-ApiZeks = "Uq1FJ6Y7p47MEh3UJo93ZXs",
+ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
 nomorowner1 = "@94725292890"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('╭─➤ *ᴍ ꜱʜᴀɴᴢ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/SHANCER/SHANZ-BOT\n│❖   ᴡᴀ ɢʀᴏᴜᴘ:\n│❖   https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n              ᴍ ꜱʜᴀɴᴢ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ꜱʜᴀɴᴢ*\n╰─────────────────❋ཻུ۪۪⸙')
+  reply('https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi')
 break
    
 case 'owner':
@@ -2380,7 +2380,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *ᴍ ꜱʜᴀɴᴢ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/SHANCER/SHANZ-BOT\n│❖   ᴡᴀ ɢʀᴏᴜᴘ:\n│❖   https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n              ᴍ ꜱʜᴀɴᴢ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ꜱʜᴀɴᴢ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -3540,7 +3540,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('╭─➤ *ᴍ ꜱʜᴀɴᴢ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/SHANCER/SHANZ-BOT\n│❖   ᴡᴀ ɢʀᴏᴜᴘ:\n│❖   https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n              ᴍ ꜱʜᴀɴᴢ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ꜱʜᴀɴᴢ*\n╰─────────────────❋ཻུ۪۪⸙')
+  reply('')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "╭─➤ *ᴍ ꜱʜᴀɴᴢ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/SHANCER/SHANZ-BOT\n│❖   ᴡᴀ ɢʀᴏᴜᴘ:\n│❖   https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n              ᴍ ꜱʜᴀɴᴢ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ꜱʜᴀɴᴢ*\n╰─────────────────❋ཻུ۪۪⸙"
+          "url": "https://chat.whatsapp.com/EWKh1oibH8HBaKKQkbJIsi"
         },
         "index": 0
       }
